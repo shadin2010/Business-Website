@@ -12,6 +12,7 @@ const Home = () => {
 
 
       {/* Hero Banner */}
+      
 <div className="relative">
 
   {/* Background Image */}
@@ -196,14 +197,7 @@ const Home = () => {
 
 
 
-
-
-
-
     {/* product card*/}
-
-
-    
 
      <div>
 
@@ -216,36 +210,7 @@ const Home = () => {
 
 <div  className=' grid grid-cols-5 mt-10 p-9'>
 
-
-
-   <div className="w-[290px] bg-white rounded-xl shadow-lg overflow-hidden hover:-translate-y-5 hover:shadow-2xl duration-500  p-4 mt-7 bg-gradient-to-b from-purple-700 via-purple-500 to-white">
-
-  <img
-    src="https://www.bestscrapbuyeratdammam.com/wp-content/uploads/2026/04/OldACBuyer.webp"
-    alt=""
-    className="w-full h-48 object-cover"
-  />
-
-  <div className="p-5 text-center">
-
-    <h1 className="text-xl font-bold text-gray-800 mb-3">
-      Old AC Buyer
-    </h1>
-
-    <p className="text-gray-600 text-sm leading-6">
-      We are old AC buyers in Dammam, offering best prices,
-      instant payment, and fast pickup service for used air
-      conditioners.
-    </p>
-
-  </div>
-
-</div>
-
-
-
-
-
+{/* card-1 */}
 
    <div className="w-[290px] bg-white rounded-xl shadow-lg overflow-hidden hover:-translate-y-5 hover:shadow-2xl duration-500  p-4 mt-7 bg-gradient-to-b from-purple-700 via-purple-500 to-white">
 
@@ -275,8 +240,97 @@ const Home = () => {
 
 
 
+{/* card-2 */}
+   <div className="w-[290px] bg-white rounded-xl shadow-lg overflow-hidden hover:-translate-y-5 hover:shadow-2xl duration-500  p-4 mt-7 bg-gradient-to-b from-purple-700 via-purple-500 to-white">
+
+  <img
+    src="https://www.bestscrapbuyeratdammam.com/wp-content/uploads/2026/04/OldACBuyer.webp"
+    alt=""
+    className="w-full h-48 object-cover"
+  />
+
+  <div className="p-5 text-center">
+
+    <h1 className="text-xl font-bold text-gray-800 mb-3">
+      Old AC Buyer
+    </h1>
+
+    <p className="text-gray-600 text-sm leading-6">
+      We are old AC buyers in Dammam, offering best prices,
+      instant payment, and fast pickup service for used air
+      conditioners.
+    </p>
+
+  </div>
+
+</div>
 
 
+
+
+
+
+{/* card-3 */}
+<div className="w-[290px] bg-white rounded-xl shadow-lg overflow-hidden hover:-translate-y-5 hover:shadow-2xl duration-500  p-4 mt-7 bg-gradient-to-b from-purple-700 via-purple-500 to-white">
+
+  <img
+    src="https://www.bestscrapbuyeratdammam.com/wp-content/uploads/2026/04/OldACBuyer.webp"
+    alt=""
+    className="w-full h-48 object-cover"
+  />
+
+  <div className="p-5 text-center">
+
+    <h1 className="text-xl font-bold text-gray-800 mb-3">
+      Old AC Buyer
+    </h1>
+
+    <p className="text-gray-600 text-sm leading-6">
+      We are old AC buyers in Dammam, offering best prices,
+      instant payment, and fast pickup service for used air
+      conditioners.
+    </p>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+{/* card-4 */}
+<div className="w-[290px] bg-white rounded-xl shadow-lg overflow-hidden hover:-translate-y-5 hover:shadow-2xl duration-500  p-4 mt-7 bg-gradient-to-b from-purple-700 via-purple-500 to-white">
+
+  <img
+    src="https://www.bestscrapbuyeratdammam.com/wp-content/uploads/2026/04/OldACBuyer.webp"
+    alt=""
+    className="w-full h-48 object-cover"
+  />
+
+  <div className="p-5 text-center">
+
+    <h1 className="text-xl font-bold text-gray-800 mb-3">
+      Old AC Buyer
+    </h1>
+
+    <p className="text-gray-600 text-sm leading-6">
+      We are old AC buyers in Dammam, offering best prices,
+      instant payment, and fast pickup service for used air
+      conditioners.
+    </p>
+
+  </div>
+
+</div>
+
+
+
+
+{/* card-5 */}
 <div className="w-[290px] bg-white rounded-xl shadow-lg overflow-hidden hover:-translate-y-5 hover:shadow-2xl duration-500  p-4 mt-7 bg-gradient-to-b from-purple-700 via-purple-500 to-white">
 
   <img
@@ -309,72 +363,12 @@ const Home = () => {
 
 
 
-<div className="w-[290px] bg-white rounded-xl shadow-lg overflow-hidden hover:-translate-y-5 hover:shadow-2xl duration-500  p-4 mt-7 bg-gradient-to-b from-purple-700 via-purple-500 to-white">
-
-  <img
-    src="https://www.bestscrapbuyeratdammam.com/wp-content/uploads/2026/04/OldACBuyer.webp"
-    alt=""
-    className="w-full h-48 object-cover"
-  />
-
-  <div className="p-5 text-center">
-
-    <h1 className="text-xl font-bold text-gray-800 mb-3">
-      Old AC Buyer
-    </h1>
-
-    <p className="text-gray-600 text-sm leading-6">
-      We are old AC buyers in Dammam, offering best prices,
-      instant payment, and fast pickup service for used air
-      conditioners.
-    </p>
-
-  </div>
-
-</div>
 
 
 
 
 
-<div className="w-[290px] bg-white rounded-xl shadow-lg overflow-hidden hover:-translate-y-5 hover:shadow-2xl duration-500  p-4 mt-7 bg-gradient-to-b from-purple-700 via-purple-500 to-white">
-
-  <img
-    src="https://www.bestscrapbuyeratdammam.com/wp-content/uploads/2026/04/OldACBuyer.webp"
-    alt=""
-    className="w-full h-48 object-cover"
-  />
-
-  <div className="p-5 text-center">
-
-    <h1 className="text-xl font-bold text-gray-800 mb-3">
-      Old AC Buyer
-    </h1>
-
-    <p className="text-gray-600 text-sm leading-6">
-      We are old AC buyers in Dammam, offering best prices,
-      instant payment, and fast pickup service for used air
-      conditioners.
-    </p>
-
-  </div>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{/* card-6 */}
  <div className="w-[290px] bg-white rounded-xl shadow-lg overflow-hidden hover:-translate-y-5 hover:shadow-2xl duration-500  p-4 mt-7 bg-gradient-to-b from-purple-700 via-purple-500 to-white">
 
   <img
@@ -403,7 +397,7 @@ const Home = () => {
 
 
 
-
+{/* card-7 */}
    <div className="w-[290px] bg-white rounded-xl shadow-lg overflow-hidden hover:-translate-y-5 hover:shadow-2xl duration-500  p-4 mt-7 bg-gradient-to-b from-purple-700 via-purple-500 to-white">
 
   <img
@@ -433,7 +427,7 @@ const Home = () => {
 
 
 
-
+{/* card-8 */}
 <div className="w-[290px] bg-white rounded-xl shadow-lg overflow-hidden hover:-translate-y-5 hover:shadow-2xl duration-500  p-4 mt-7 bg-gradient-to-b from-purple-700 via-purple-500 to-white">
 
   <img
@@ -465,7 +459,7 @@ const Home = () => {
 
 
 
-
+{/* card-9 */}
 <div className="w-[290px] bg-white rounded-xl shadow-lg overflow-hidden hover:-translate-y-5 hover:shadow-2xl duration-500  p-4 mt-7 bg-gradient-to-b from-purple-700 via-purple-500 to-white">
 
   <img
@@ -493,7 +487,7 @@ const Home = () => {
 
 
 
-
+{/* card-10 */}
 <div className="w-[290px] bg-white rounded-xl shadow-lg overflow-hidden hover:-translate-y-5 hover:shadow-2xl duration-500  p-4 mt-7 bg-gradient-to-b from-purple-700 via-purple-500 to-white">
 
   <img
