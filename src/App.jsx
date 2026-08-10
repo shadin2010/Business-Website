@@ -7,6 +7,7 @@ import { Services } from "./Pages/Services";
 import FloatingIcons from "./Components/FloatingIcons";
 import Home from "./Pages/Home";
 import ContactUs from "./Pages/ContactUs";
+import ServiceDetails from "./Pages/ServiceDetails";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact us" element={<ContactUs />} />
+          <Route path="/service/:id" element={<ServiceDetails />} />
         </Routes>
       </main>
 

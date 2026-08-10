@@ -2,6 +2,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FiPhoneCall } from "react-icons/fi";
 import { HiOutlineMenuAlt3, HiX } from "react-icons/hi";
+import logo from '../Image/logo.png';
 
 const navLinks = [
   { name: "Home", path: "/" },
@@ -18,12 +19,13 @@ const Navbar = () => {
     <header className="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-md shadow-md z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between h-20 px-6">
 
-        {/* Logo */}
-        <div className="cursor-pointer">
-          <h2 className="text-3xl font-bold text-green-600 transition-all duration-300 hover:scale-105 hover:text-emerald-500">
-            Scrap Buyer
-          </h2>
-        </div>
+{/* Logo */}
+<div className="cursor-pointer">
+    <a href="/" className="flex items-center gap-2">
+        <img src={logo} alt="Scrap Buyer Logo" className="h-10 w-auto object-contain" />
+        <span className="text-2xl sm:text-3xl font-bold text-green-600">Scrap Buyer</span>
+    </a>
+</div>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex items-center gap-10">
