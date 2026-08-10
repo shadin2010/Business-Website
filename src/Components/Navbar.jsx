@@ -8,6 +8,7 @@ const navLinks = [
   { name: "About Us", path: "/about" },
   { name: "Our Services", path: "/services" },
   { name: "Blog", path: "/blog" },
+  { name: "Contact Us", path: "/contact us" },
 ];
 
 const Navbar = () => {

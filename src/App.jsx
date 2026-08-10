@@ -6,6 +6,7 @@ import { Blog } from "./Pages/Blog";
 import { Services } from "./Pages/Services";
 import FloatingIcons from "./Components/FloatingIcons";
 import Home from "./Pages/Home";
+import ContactUs from "./Pages/ContactUs";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/contact us" element={<ContactUs />} />
         </Routes>
       </main>
 
