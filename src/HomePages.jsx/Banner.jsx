@@ -44,14 +44,11 @@ const Banner = () => {
          {/* Left Side */}
          <div className="text-white">
            <h1 className="text-5xl font-bold">
-             Top Scrap Buyer in Dammam – We <br />
-             Buy All Types of Scrap at Best Prices
+             أفضل شراي سكراب  بالدمام – نشتري كل أنواع <br /> السكراب بأعلى الأسعار
            </h1>
      
            <p className="mt-5 text-xl text-center">
-             Fast pickup, instant cash, and trusted recycling service
-             across Dammam, <br />
-             Dhahran, Khobar, and surrounding areas.
+             شيل سريع، كاش فوري، وخدمة تدوير موثوقة في الأحساء، <br /> الهفوف، القطيف، الخبر، الدمام، والجبيل
            </p>
      
            <div className="mt-8 flex gap-4  justify-center ">

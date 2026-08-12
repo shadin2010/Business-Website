@@ -102,10 +102,10 @@ const HomeAbout = () => {
                 </div>
                
                
-               
                 <div data-aos="fade-down" data-aos-duration="1500">
                     <img src="https://scrapyarddammam.com/wp-content/uploads/2026/07/Industrial-Scrap.webp" alt="Industrial Scrap" className='w-full max-w-md rounded-2xl shadow-xl object-cover' />
                 </div>
+               
            
             </div>
 
