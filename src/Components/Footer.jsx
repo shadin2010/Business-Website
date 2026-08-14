@@ -8,36 +8,36 @@ const Footer = () => {
         {/* Logo & About */}
         <div className="transition-all duration-500 hover:translate-y-[-2px]">
           <h2 className="text-2xl font-bold text-green-500 mb-4">
-            Top Scrap Dammam
+            أفضل خردة الدمام
           </h2>
           <p className="text-gray-300 leading-8">
-            We provide fast, reliable, and eco-friendly scrap buying services across Dammam and the Eastern Province.
+            نقدم خدمات شراء خردة سريعة وموثوقة وصديقة للبيئة في جميع أنحاء الدمام والمنطقة الشرقية.
           </p>
         </div>
 
         {/* Menu */}
         <div>
-          <h2 className="text-3xl text-sky-400 mb-3">Quick Links</h2>
+          <h2 className="text-3xl text-sky-400 mb-3">روابط سريعة</h2>
           <div className="w-32 h-1 bg-white mb-6 transition-all duration-500 hover:w-40"></div>
           <ul className="space-y-3 text-gray-300">
             <li>
               <a href="/" className="hover:text-green-400 hover:translate-x-2 inline-block transition-all duration-300">
-                Home
+                الرئيسية
               </a>
             </li>
             <li>
               <a href="/services" className="hover:text-green-400 hover:translate-x-2 inline-block transition-all duration-300">
-                Our Services
+                خدماتنا
               </a>
             </li>
             <li>
               <a href="#about" className="hover:text-green-400 hover:translate-x-2 inline-block transition-all duration-300">
-                About Us
+                من نحن
               </a>
             </li>
             <li>
               <a href="https://wa.me/966510904147" className="hover:text-green-400 hover:translate-x-2 inline-block transition-all duration-300">
-                Contact Support
+                تواصل مع الدعم
               </a>
             </li>
           </ul>
@@ -45,29 +45,29 @@ const Footer = () => {
 
         {/* Policy */}
         <div>
-          <h2 className="text-3xl text-sky-400 mb-3">Policy</h2>
+          <h2 className="text-3xl text-sky-400 mb-3">السياسات</h2>
           <div className="w-32 h-1 bg-white mb-6 transition-all duration-500 hover:w-40"></div>
           <ul className="space-y-3 text-gray-300">
             <li className="hover:text-green-400 hover:translate-x-2 cursor-pointer transition-all duration-300">
-              Terms & Conditions
+              الشروط والأحكام
             </li>
             <li className="hover:text-green-400 hover:translate-x-2 cursor-pointer transition-all duration-300">
-              Privacy Policy
+              سياسة الخصوصية
             </li>
             <li className="hover:text-green-400 hover:translate-x-2 cursor-pointer transition-all duration-300">
-              Refund Policy
+              سياسة الاسترجاع
             </li>
           </ul>
         </div>
 
         {/* Contact */}
         <div>
-          <h2 className="text-3xl text-sky-400 mb-3">Contact Us</h2>
+          <h2 className="text-3xl text-sky-400 mb-3">اتصل بنا</h2>
           <div className="w-40 h-1 bg-white mb-6 transition-all duration-500 hover:w-48"></div>
           <ul className="space-y-4 text-gray-300">
             <li className="hover:translate-x-1 transition-transform duration-300">📧 scrapbuyer.best@gmail.com</li>
             <li className="hover:translate-x-1 transition-transform duration-300">📞 +966 51 090 4147</li>
-            <li className="hover:translate-x-1 transition-transform duration-300">📍 Dammam, Eastern Province, KSA</li>
+            <li className="hover:translate-x-1 transition-transform duration-300">📍 الدمام، المنطقة الشرقية، المملكة العربية السعودية</li>
           </ul>
 
           <div className="flex gap-4 mt-8">
@@ -101,7 +101,7 @@ const Footer = () => {
 
       {/* Bottom */}
       <div className="border-t border-gray-700 py-5 text-center text-gray-400">
-        © 2026 Top Scrap Dammam. All Rights Reserved.
+        © 2026 أفضل خردة الدمام. جميع الحقوق محفوظة.
       </div>
     </footer>
   );

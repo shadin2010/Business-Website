@@ -66,20 +66,27 @@ export const Services = () => {
     return (
         <div className="pt-24 pb-16">
             {/* Top Intro Section */}
-            <div className='flex flex-col lg:flex-row items-center justify-center max-w-7xl mx-auto px-4 gap-12'>
-                <div className='max-w-xl' data-aos="fade-down" data-aos-duration="1500">
-                    <h1 className='text-3xl font-bold mb-6 text-slate-900'>What We Buy​</h1>
-                    <p className='text-lg text-slate-600 leading-relaxed'>
-                        We buy all types of scrap materials across Eastern province and nearby areas. This includes iron, steel, copper, aluminum, electrical scrap, industrial waste, and old machinery. We also purchase used AC, refrigerators, batteries, and electronic waste.
-                    </p>
-                    <p className='text-lg mt-4 text-slate-600 leading-relaxed'>
-                        We provide fast pickup, fair pricing, and instant payment, making scrap selling simple and hassle-free for every customer.
-                    </p>
-                </div>
-                <div data-aos="fade-down" data-aos-duration="1500">
-                    <img src="https://scrapyarddammam.com/wp-content/uploads/2026/07/Industrial-Scrap.webp" alt="Industrial Scrap" className='w-full max-w-md rounded-2xl shadow-xl object-cover' />
-                </div>
-            </div>
+         <div className='flex flex-col lg:flex-row items-center justify-center max-w-7xl mx-auto px-4 gap-12'>
+    <div className='max-w-xl' data-aos="fade-down" data-aos-duration="1500">
+        <h1 className='text-3xl font-bold mb-6 text-slate-900'>ماذا نشتري   </h1>
+        <p className='text-lg text-slate-600 leading-relaxed'>
+            نشتري أغراضك القديمة وغير المستخدمة بأفضل الأسعار. يمكنك بسهولة بيع مكيفات الهواء القديمة، والمبردات، والسخانات، ومراوح السقف، والمراوح العمودية، وأنواع مختلفة من الأجهزة الإلكترونية الخردة الآن.
+        </p>
+        <p className='text-lg mt-4 text-slate-600 leading-relaxed'>
+            بالإضافة إلى ذلك، نشتري جميع أنواع الألمنيوم والنحاس والحديد والأسلاك ومواد الخردة المتنوعة الأخرى بأسعار عادلة جدا. اتصل بنا!
+        </p>
+    </div>
+   
+   
+    <div data-aos="fade-down" data-aos-duration="1500">
+        {/* এখানে নতুন মানানসই ইমেজের লিঙ্ক যুক্ত করা হয়েছে */}
+        <img 
+           src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=800&q=80" 
+           alt="Scrap Metal and Electronics" 
+           className='w-full max-w-md rounded-2xl shadow-xl object-cover' 
+        />
+    </div>
+</div>
 
             {/* Cards Grid Section */}
             <div className='max-w-7xl mx-auto px-4 mt-28'>

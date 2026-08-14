@@ -10,13 +10,13 @@ const ContactUs = () => {
             <div className="max-w-7xl mx-auto">
                 
                 {/* Header Title Section */}
-                <div className="mb-12 max-w-3xl">
-                    <h1 className="text-4xl text-cyan-700 font-bold">Contact Us</h1>
-                    <p className="text-md mt-4 text-slate-600 leading-relaxed">
-                        Have scrap to sell? Need a quick pickup or price quote? We’re here to help. <br /> 
-                        Contact us anytime and our team will respond as quickly as possible.
-                    </p>
-                </div>
+               <div className="mb-12 max-w-3xl">
+    <h1 className="text-4xl text-cyan-700 font-bold">اتصل بنا</h1>
+    <p className="text-md mt-4 text-slate-600 leading-relaxed">
+        لديك خردة للبيع؟ تحتاج إلى استلام سريع أو عرض سعر؟ نحن هنا للمساعدة. <br /> 
+        اتصل بنا في أي وقت وسيقوم فريقنا بالرد في أسرع وقت ممكن.
+    </p>
+               </div> 
 
                 {/* Main Grid: Left Side Info & Right Side Map */}
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -28,7 +28,7 @@ const ContactUs = () => {
                         <div>
                             <div className='flex gap-3 items-center'> 
                                 <span className='text-3xl text-slate-800'><IoIosCall /></span>  
-                                <h2 className='text-3xl font-bold text-slate-800'>Get in Touch</h2>
+                                <h2 className='text-3xl font-bold text-slate-800'>تواصل معنا</h2>
                             </div> 
                             
                             {/* Details List */}

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom"; // লিংক করার জন্য
+import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -67,46 +67,65 @@ export const Services = () => {
         <div className="pt-24 pb-16">
             {/* Top Intro Section */}
             <div className='flex flex-col lg:flex-row items-center justify-center max-w-7xl mx-auto px-4 gap-12'>
-                <div className='max-w-xl' data-aos="fade-down" data-aos-duration="1500">
-                    <h1 className='text-3xl font-bold mb-6 text-slate-900'>What We Buy​</h1>
-                    <p className='text-lg text-slate-600 leading-relaxed'>
-                        We buy all types of scrap materials across Eastern province and nearby areas. This includes iron, steel, copper, aluminum, electrical scrap, industrial waste, and old machinery. We also purchase used AC, refrigerators, batteries, and electronic waste.
-                    </p>
-                    <p className='text-lg mt-4 text-slate-600 leading-relaxed'>
-                        We provide fast pickup, fair pricing, and instant payment, making scrap selling simple and hassle-free for every customer.
-                    </p>
+                <div data-aos="fade-down" data-aos-duration="1500">
+                    <div className='max-w-xl'>
+                        <h1 className='text-3xl font-bold mb-6 text-slate-900'>ماذا نشتري​</h1>
+                        <p className='text-lg text-slate-600 leading-relaxed'>
+                             نشتري أغراضك القديمة وغير المستخدمة بأفضل الأسعار. يمكنك بسهولة بيع مكيفات الهواء القديمة، والمبردات، والسخانات، ومراوح السقف، والمراوح العمودية، وأنواع مختلفة من الأجهزة الإلكترونية الخردة الآن.
+                        </p>
+                        <p className='text-lg mt-4 text-slate-600 leading-relaxed'>
+                            بالإضافة إلى ذلك، نشتري جميع أنواع الألمنيوم والنحاس والحديد والأسلاك ومواد الخردة المتنوعة الأخرى بأسعار عادلة جدا. اتصل بنا!
+                        </p>
+                    </div>
                 </div>
+
                 <div data-aos="fade-down" data-aos-duration="1500">
                     <img src="https://scrapyarddammam.com/wp-content/uploads/2026/07/Industrial-Scrap.webp" alt="Industrial Scrap" className='w-full max-w-md rounded-2xl shadow-xl object-cover' />
                 </div>
             </div>
 
             {/* Cards Grid Section */}
-            <div className='max-w-7xl mx-auto px-4 mt-28'>
-                <h1 className='text-4xl sm:text-5xl font-extrabold text-center mb-16 text-slate-900' data-aos="fade-down">
-                    WHAT WE BUY
-                </h1>
+            <div className='max-w-7xl mx-auto px-4 mt-20'>
+                <div data-aos="fade-down">
+                    <div className='text-4xl sm:text-5xl font-extrabold p-8 text-center text-slate-900 mb-4'>
+                        <h1>Scrap Buying Services</h1>
+                    </div>
+                </div>
 
-                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-items-center'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-items-center mt-6'>
                     {servicesList.map((item, index) => (
-                        <Link 
-                            to={`/service/${item.id}`} 
+                        <div 
                             key={item.id}
-                            data-aos="fade-left"
+                            data-aos="fade-up"
                             data-aos-delay={index * 100}
                             data-aos-duration="800"
-                            className="w-full max-w-xs bg-white rounded-2xl shadow-lg overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 border border-slate-100 flex flex-col group bg-gradient-to-b from-teal-700 via-teal-500 to-white p-3"
+                            className="h-full" /* AOS-র‍্যাপারে h-full দেওয়া হয়েছে */
                         >
-                            <img
-                                src={item.image}
-                                alt={item.title}
-                                className="w-full h-44 object-cover rounded-xl group-hover:scale-105 transition-transform duration-300"
-                            />
-                            <div className="py-4 text-center">
-                                <h3 className="text-lg font-bold text-gray-900">{item.title}</h3>
-                                <p className="text-xs text-slate-700 mt-2 line-clamp-2 px-2">{item.desc}</p>
-                            </div>
-                        </Link>
+                            <Link 
+                                to={`/service/${item.id}`} 
+                                // এখানে h-full, flex এবং flex-col যুক্ত করা হয়েছে 
+                                className="group flex flex-col h-full w-[290px] bg-white rounded-xl shadow-lg p-4 bg-gradient-to-b from-purple-700 via-purple-500 to-white transition-all duration-500 ease-in-out hover:-translate-y-3 hover:shadow-2xl"
+                            >
+                                <div className="overflow-hidden rounded-md shrink-0">
+                                    <img
+                                        src={item.image}
+                                        alt={item.title}
+                                        className="w-full h-48 object-cover transition-transform duration-500 ease-in-out group-hover:scale-110"
+                                    />
+                                </div>
+                                
+                                {/* flex-grow ব্যবহার করা হয়েছে যাতে কন্টেন্ট অনুযায়ী জায়গা সমানভাবে নেয় */}
+                                <div className="p-5 text-center flex flex-col flex-grow">
+                                    <h1 className="text-xl font-bold text-gray-800 mb-3">
+                                        {item.title}
+                                    </h1>
+                                    {/* line-clamp-3 দেওয়া হয়েছে যাতে টেক্সট সর্বোচ্চ ৩ লাইনের বেশি না যায় */}
+                                    <p className="text-gray-600 text-sm leading-6 line-clamp-3">
+                                        {item.desc}
+                                    </p>
+                                </div>
+                            </Link>
+                        </div>
                     ))}
                 </div>
             </div>
