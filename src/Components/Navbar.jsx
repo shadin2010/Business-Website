@@ -5,11 +5,11 @@ import { HiOutlineMenuAlt3, HiX } from "react-icons/hi";
 import logo from '../Image/logo.png';
 
 const navLinks = [
-  { name: "Home", path: "/" },
-  { name: "About Us", path: "/about" },
-  { name: "Our Services", path: "/services" },
-  { name: "Blog", path: "/blog" },
-  { name: "Contact Us", path: "/contact us" },
+  { name: "الرئيسية", path: "/" },
+  { name: "من نحن", path: "/about" },
+  { name: "خدماتنا", path: "/services" },
+  { name: "المدونة", path: "/blog" },
+  { name: "اتصل بنا", path: "/contact us" },
 ];
 
 const Navbar = () => {
@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="cursor-pointer">
             <a href="/" className="flex items-center gap-2">
                 <img src={logo} alt="Scrap Buyer Logo" className="h-10 w-auto object-contain" />
-                <span className="text-2xl sm:text-3xl font-bold text-green-600">Scrap Buyer</span>
+                <span className="text-2xl sm:text-3xl font-bold text-green-600">شراي سكراب</span>
             </a>
         </div>
 
@@ -34,7 +34,7 @@ const Navbar = () => {
               key={item.path}
               to={item.path}
               className={({ isActive }) =>
-                `relative pb-1 text-[15px] font-semibold transition-all duration-300 ${
+                `relative pb-1 text-[16px] font-semibold transition-all duration-300 ${
                   isActive
                     ? "text-green-600 border-b-2 border-green-600"
                     : "text-gray-700 border-b-2 border-transparent hover:text-green-600 hover:border-green-600"
@@ -52,7 +52,7 @@ const Navbar = () => {
           className="hidden md:flex items-center gap-2 rounded-lg bg-gradient-to-r from-green-500 to-emerald-600 px-6 py-3 font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:shadow-xl active:scale-95 cursor-pointer"
         >
           <FiPhoneCall className="text-lg" />
-          Call Now
+          اتصل الان
         </a>
 
         {/* Mobile Menu Button */}
@@ -89,7 +89,7 @@ const Navbar = () => {
             className="w-full flex items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-green-500 to-emerald-600 py-3 font-semibold text-white shadow-md cursor-pointer"
           >
             <FiPhoneCall />
-            Call Now
+            اتصل الان
           </a>
         </div>
       </div>
