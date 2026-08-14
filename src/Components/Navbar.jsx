@@ -19,13 +19,13 @@ const Navbar = () => {
     <header className="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-md shadow-md z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between h-20 px-6">
 
-{/* Logo */}
-<div className="cursor-pointer">
-    <a href="/" className="flex items-center gap-2">
-        <img src={logo} alt="Scrap Buyer Logo" className="h-10 w-auto object-contain" />
-        <span className="text-2xl sm:text-3xl font-bold text-green-600">Scrap Buyer</span>
-    </a>
-</div>
+        {/* Logo */}
+        <div className="cursor-pointer">
+            <a href="/" className="flex items-center gap-2">
+                <img src={logo} alt="Scrap Buyer Logo" className="h-10 w-auto object-contain" />
+                <span className="text-2xl sm:text-3xl font-bold text-green-600">Scrap Buyer</span>
+            </a>
+        </div>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex items-center gap-10">
@@ -46,16 +46,19 @@ const Navbar = () => {
           ))}
         </nav>
 
-        {/* Call Button */}
-        <button className="hidden md:flex items-center gap-2 rounded-lg bg-gradient-to-r from-green-500 to-emerald-600 px-6 py-3 font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:shadow-xl active:scale-95">
+        {/* Call Button (Desktop) */}
+        <a 
+          href="tel:+966510904147"
+          className="hidden md:flex items-center gap-2 rounded-lg bg-gradient-to-r from-green-500 to-emerald-600 px-6 py-3 font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:shadow-xl active:scale-95 cursor-pointer"
+        >
           <FiPhoneCall className="text-lg" />
           Call Now
-        </button>
+        </a>
 
         {/* Mobile Menu Button */}
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden text-3xl text-green-600"
+          className="md:hidden text-3xl text-green-600 focus:outline-none"
         >
           {open ? <HiX /> : <HiOutlineMenuAlt3 />}
         </button>
@@ -79,10 +82,15 @@ const Navbar = () => {
             </NavLink>
           ))}
 
-          <button className="w-full flex items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-green-500 to-emerald-600 py-3 font-semibold text-white">
+          {/* Call Button (Mobile) */}
+          <a 
+            href="tel:+966510904147"
+            onClick={() => setOpen(false)}
+            className="w-full flex items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-green-500 to-emerald-600 py-3 font-semibold text-white shadow-md cursor-pointer"
+          >
             <FiPhoneCall />
             Call Now
-          </button>
+          </a>
         </div>
       </div>
     </header>

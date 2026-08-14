@@ -69,7 +69,7 @@ const HomeAbout = () => {
                         className="lg:col-span-2 relative group h-full min-h-[400px]"
                     >
                         <img 
-                            src="https://images.unsplash.com/photo-1605647550641-7849657e931a?q=80&w=800&auto=format&fit=crop" 
+                            src="https://scrapyarddammam.com/wp-content/uploads/2026/07/Industrial-Scrap.webp" 
                             alt="Industrial Scrap" 
                             className="absolute inset-0 w-full h-full object-cover rounded-3xl shadow-2xl shadow-slate-500/30 transition-transform duration-500 group-hover:scale-[1.02]"
                         />
@@ -87,32 +87,7 @@ const HomeAbout = () => {
        
        
        
-          <div>
-
-
-              <div className='flex flex-col lg:flex-row items-center justify-center max-w-7xl mx-auto px-4 gap-12'>
-                <div className='max-w-xl' data-aos="fade-down" data-aos-duration="1500">
-                    <h1 className='text-3xl font-bold mb-6 text-slate-900'>What We Buy​</h1>
-                    <p className='text-lg text-slate-600 leading-relaxed'>
-                        We buy all types of scrap materials across Eastern province and nearby areas. This includes iron, steel, copper, aluminum, electrical scrap, industrial waste, and old machinery. We also purchase used AC, refrigerators, batteries, and electronic waste.
-                    </p>
-                    <p className='text-lg mt-4 text-slate-600 leading-relaxed'>
-                        We provide fast pickup, fair pricing, and instant payment, making scrap selling simple and hassle-free for every customer.
-                    </p>
-                </div>
-               
-               
-                <div data-aos="fade-down" data-aos-duration="1500">
-                    <img src="https://scrapyarddammam.com/wp-content/uploads/2026/07/Industrial-Scrap.webp" alt="Industrial Scrap" className='w-full max-w-md rounded-2xl shadow-xl object-cover' />
-                </div>
-               
-           
-            </div>
-
-
-          </div>
-       
-       
+          
        
        
        
