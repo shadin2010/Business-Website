@@ -7,51 +7,53 @@ import "aos/dist/aos.css";
 export const servicesList = [
     {
         id: "ac-fridge-scrap",
-        title: "Air Condition Scrap",
-        image: "https://www.bestscrapbuyeratdammam.com/wp-content/uploads/2026/04/OldACBuyer.webp",
-        desc: "Top Scrap Dammam offers the best price for air condition scrap in Dammam. Sell your old AC units hassle-free with fast pickup and instant cash."
+        title: "مكيفات هواء نافذة خردة",
+        image: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTDJ2xG_9uAfFADXqldmxStwTl1JWnY4rYPU7coiPLRrLBSwBbO1b0LZHDsvJ6L",
+        desc: "كومة من مكيفات الهواء القديمة والمكسورة من نوع النافذة، وهي جاهزة تماما لإعادة التدوير أو استخراج الخردة المعدنية."
     },
     {
         id: "aluminium-scrap",
-        title: "Aluminium Scrap",
-        image: "https://images.unsplash.com/photo-1605647550641-7849657e931a?q=80&w=800&auto=format&fit=crop",
-        desc: "Top Scrap Dammam offers the best prices for aluminium scrap in Dammam. Sell your aluminium waste quickly with fast pickup and instant cash."
+        title: "وحدات تكييف خارجية خردة",
+        image: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRMNosC0lGwLdWJ8OHBy7Cim68b8sX7qTsockHa5F3SjWjcUgehRV5Muk_QK7pT",
+        desc: "كومة كبيرة من وحدات مكثف تكييف الهواء الخارجية المستعملة والمهملة، تم جمعها معا لإعادة تدوير الخردة المعدنية وقطع الغيار."
     },
     {
         id: "battery-scrap",
-        title: "Battery Scrap",
-        image: "https://images.unsplash.com/photo-1558449041-621fef0a66de?q=80&w=800&auto=format&fit=crop",
-        desc: "Top Scrap Dammam buys battery scrap in Dammam at the best prices. Sell old car, inverter, and industrial batteries hassle-free with instant cash."
+        title: "مكيف خردة في شاحنة",
+        image: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT78o10JWNIGMmVJBzH3LBD_X7FYdb4IPBBy_VNgzHDS8KHHZvZ3V_Pjm-uzsB4",
+        desc: "وحدة تكييف هواء قديمة ومهملة محملة في الجزء الخلفي من شاحنة صغيرة، جاهزة لإعادة تدوير الخردة المعدنية."
     },
     {
         id: "building-demolition",
-        title: "Building Demolition Scrap",
-        image: "https://images.unsplash.com/photo-1541888946425-d0fbb18f1f7d?q=80&w=800&auto=format&fit=crop",
-        desc: "Top Scrap Dammam buys building demolition scrap in Dammam at the best rates. Sell construction and demolition waste with fast pickup."
+        title: "وحدات تكييف نافذة خردة",
+        image: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSE5rWu4kBzLmNgJNYn2d_CLdIbS7tYYajXCZnYiAHZJbC54gfBdY_O4x1lqqdb",
+        desc: "مجموعة من وحدات تكييف الهواء القديمة والمهملة من نوع النافذة، مجمعة معا لإعادة تدوير الخردة المعدنية واستخراج القطع."
     },
+   
+   
     {
         id: "copper-scrap",
-        title: "Copper Scrap",
-        image: "https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?q=80&w=800&auto=format&fit=crop",
-        desc: "Get top cash for all kinds of pure and mixed copper scrap materials with immediate evaluation and professional site clearance."
+        title: "أجهزة خردة لإعادة التدوير",
+        image: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTr8Uhs4BkoatXXqzwv79nuvkH5qL8Puh4B0DPchcH6w_VvaTBXwi2iXnQhJgFE",
+        desc: "كومة خارجية كبيرة من مكيفات الهواء المهملة والأجهزة المنزلية القديمة المجمعة لإعادة تدوير الخردة المعدنية والنفايات الإلكترونية."
     },
     {
         id: "iron-steel-scrap",
-        title: "Iron & Steel Scrap",
-        image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop",
-        desc: "Heavy industrial iron and steel scrap bought at high market rates with heavy-duty loading equipment provided."
+        title: "وحدات تكييف سبليت داخلية خردة",
+        image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ3bnqMBurnKPCn-xppWhAjPzPE1XJsG3jE36JCsrrgPDPYtlhS1QgNHeoeXiGq",
+        desc: "كومة كبيرة من وحدات مكيفات الهواء المنفصلة الداخلية القديمة والمتسخة والمفككة المجمعة بغرض الخردة وإعادة التدوير."
     },
     {
         id: "electrical-scrap",
-        title: "Electrical & Cable Scrap",
-        image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=800&auto=format&fit=crop",
-        desc: "Safe recycling and buying of all types of electrical wiring, cables, transformers, and electronic switchboards."
+        title: "مكيفات هواء خردة متراكمة",
+        image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSuVwanQsMBCtZ2XU4HE8BPt7kAPnstleOmMpQUM8P9fCB3QvM3PZjegORkOok0",
+        desc: "مجموعة متراكمة من وحدات تكييف الهواء القديمة والمفككة من نوع النافذة والمحمولة، مجمعة لاستخراج الخردة المعدنية وإعادة التدوير."
     },
     {
         id: "industrial-machinery",
-        title: "Old Machinery Scrap",
-        image: "https://images.unsplash.com/photo-1581092335397-9583fe92d232?q=80&w=800&auto=format&fit=crop",
-        desc: "We dismantle and purchase obsolete factory machinery, generators, and large industrial plants at premium prices."
+        title: "مكيفات خردة بجوار حاوية نفايات",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlS0WJYXuMgR0uMuGYwyEr_x_JIVhQDTxEnmP5YvyUz7QhZkm98QeTFA-XwOie",
+        desc: "مجموعة من مكيفات الهواء المنفصلة ومعدات التبريد المهملة مكدسة على منصات خشبية بالقرب من حاوية خردة صدئة."
     }
 ];
 

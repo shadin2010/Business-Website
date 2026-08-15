@@ -7,51 +7,51 @@ import "aos/dist/aos.css";
 export const servicesList = [
     {
         id: "ac-fridge-scrap",
-        title: "Air Condition Scrap",
-        image: "https://www.bestscrapbuyeratdammam.com/wp-content/uploads/2026/04/OldACBuyer.webp",
-        desc: "Top Scrap Dammam offers the best price for air condition scrap in Dammam. Sell your old AC units hassle-free with fast pickup and instant cash."
+        title: "مكيف هواء جداري قديم",
+        image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQVrH2YImvW2w6_5AlqWvtpfd2fU5PVPgZn1z6AJyckUVNx7rIKu7X2mlLpDjbv",
+        desc: "وحدة تكييف هواء قديمة بتصميم خشبي مثبتة على الحائط، تمثل تكنولوجيا تبريد قديمة ومن المحتمل أن تكون جاهزة للاستبدال."
     },
     {
         id: "aluminium-scrap",
-        title: "Aluminium Scrap",
-        image: "https://images.unsplash.com/photo-1605647550641-7849657e931a?q=80&w=800&auto=format&fit=crop",
-        desc: "Top Scrap Dammam offers the best prices for aluminium scrap in Dammam. Sell your aluminium waste quickly with fast pickup and instant cash."
+       title: "مكيف هواء نافذة قديم",
+        image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTLDBM-ZlOYoa6Ofq5IVvDNnL-xN0h0C5u2zqc_-m-WZjMy8VS6bwf0nEG4NV8h",
+        desc: "وحدة تكييف هواء نافذة كلاسيكية مثبتة في الحائط، تتميز بمفاتيح تحكم يدوية وقابس طاقة متصل بالكهرباء."
     },
     {
         id: "battery-scrap",
-        title: "Battery Scrap",
-        image: "https://images.unsplash.com/photo-1558449041-621fef0a66de?q=80&w=800&auto=format&fit=crop",
-        desc: "Top Scrap Dammam buys battery scrap in Dammam at the best prices. Sell old car, inverter, and industrial batteries hassle-free with instant cash."
+        title: "وحدة تكييف خارجية قديمة",
+        image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRyQxWZGoh-5WiqM3yDMyg5y3gJr9G13bFaSoSvMWGMN58GPnNQ-1dvk3OyHo7l",
+        desc: "وحدة مكثف تكييف هواء خارجية قديمة ومتهالكة موضوعة على وسادة خرسانية بجوار منزل مبني من الطوب."
     },
     {
         id: "building-demolition",
-        title: "Building Demolition Scrap",
-        image: "https://images.unsplash.com/photo-1541888946425-d0fbb18f1f7d?q=80&w=800&auto=format&fit=crop",
-        desc: "Top Scrap Dammam buys building demolition scrap in Dammam at the best rates. Sell construction and demolition waste with fast pickup."
+        title: "وحدة تكييف خارجية صدئة",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCn7KGe0LSJt_KN60TyMYntJhPvA-rdzVlt0l-U8VOL5aAbjigg42A6qL0Sl_b",
+        desc: "وحدة مكثف تكييف هواء خارجية قديمة يعلوها الصدأ الشديد موضوعة على سطح مبلط، وتظهر عليها علامات التآكل والتلف الواضحة."
     },
     {
         id: "copper-scrap",
-        title: "Copper Scrap",
-        image: "https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?q=80&w=800&auto=format&fit=crop",
-        desc: "Get top cash for all kinds of pure and mixed copper scrap materials with immediate evaluation and professional site clearance."
+        title: "وحدات تكييف هواء مستعملة",
+        image: "https://images.jdmagicbox.com/quickquotes/images_main/ac-scrap-2220253393-vmj1s26g.jpg",
+        desc: "تتراكم وحدات تكييف هواء قديمة، مفككة، ومكدسة في هذه الساحة الخارجية، جاهزة لإعادة تدوير خردة المعادن"
     },
     {
         id: "iron-steel-scrap",
-        title: "Iron & Steel Scrap",
-        image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop",
-        desc: "Heavy industrial iron and steel scrap bought at high market rates with heavy-duty loading equipment provided."
+        title: "مجموعة وحدات التكييف الخارجية",
+        image: "https://static.wixstatic.com/media/ab3e58_f7c1394d21eb45718e8a02a4623b062a~mv2.jpg/v1/fill/w_304,h_304,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ab3e58_f7c1394d21eb45718e8a02a4623b062a~mv2.jpg",
+        desc: "يحتوي هذا المستودع على مئات وحدات تكييف الهواء الخارجية المنفصلة المكدسة، بعضها يحمل شعار"
     },
     {
         id: "electrical-scrap",
-        title: "Electrical & Cable Scrap",
-        image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=800&auto=format&fit=crop",
-        desc: "Safe recycling and buying of all types of electrical wiring, cables, transformers, and electronic switchboards."
+        title: "مجموعة من وحدات تكييف الهواء الداخلية القديمة والمستخدمة المكدسة",
+        image: "https://mkservicecenter.co.in/wp-content/uploads/2026/03/WhatsApp-Image-2026-03-27-at-11.08.10-AM-2.jpeg",
+        desc: "تم تكديس العديد من وحدات تكييف الهواء الداخلية المستعملة والقديمة في الهواء الطلق على الخرسانة للإصلاح أو التخريد"
     },
     {
         id: "industrial-machinery",
-        title: "Old Machinery Scrap",
-        image: "https://images.unsplash.com/photo-1581092335397-9583fe92d232?q=80&w=800&auto=format&fit=crop",
-        desc: "We dismantle and purchase obsolete factory machinery, generators, and large industrial plants at premium prices."
+        title: "العنوان: مستودع مكيفات الهواء المستعملة",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDQ8QS2y5TH_ZTsOpxsMsrsYfaPoc4GHVyq6L6w0VJEQ&s=10",
+        desc: "مستودع كبير يخزن العديد من وحدات تكييف الهواء القديمة والمستعملة الجاهزة لخدمات شراء الخردة المعدنية اليوم"
     }
 ];
 
@@ -79,7 +79,7 @@ export const Services = () => {
    
    
     <div data-aos="fade-down" data-aos-duration="1500">
-        {/* এখানে নতুন মানানসই ইমেজের লিঙ্ক যুক্ত করা হয়েছে */}
+        {/* এখানে নতুন মানানসই ইমেজের লিঙ্ক যুক্ত করা হয়েছে */}
         <img 
            src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=800&q=80" 
            alt="Scrap Metal and Electronics" 
@@ -102,16 +102,19 @@ export const Services = () => {
                             data-aos="fade-left"
                             data-aos-delay={index * 100}
                             data-aos-duration="800"
-                            className="w-full max-w-xs bg-white rounded-2xl shadow-lg overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 border border-slate-100 flex flex-col group bg-gradient-to-b from-teal-700 via-teal-500 to-white p-3"
+                            className="block w-full max-w-xs"
                         >
-                            <img
-                                src={item.image}
-                                alt={item.title}
-                                className="w-full h-44 object-cover rounded-xl group-hover:scale-105 transition-transform duration-300"
-                            />
-                            <div className="py-4 text-center">
-                                <h3 className="text-lg font-bold text-gray-900">{item.title}</h3>
-                                <p className="text-xs text-slate-700 mt-2 line-clamp-2 px-2">{item.desc}</p>
+                            {/* হোভার ইফেক্টগুলো একটি ইনার ডিভ (Inner Div) এর মধ্যে আলাদা করা হয়েছে */}
+                            <div className="w-full h-full bg-white rounded-2xl shadow-lg overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 border border-slate-100 flex flex-col group bg-gradient-to-b from-teal-700 via-teal-500 to-white p-3">
+                                <img
+                                    src={item.image}
+                                    alt={item.title}
+                                    className="w-full h-44 object-cover rounded-xl group-hover:scale-105 transition-transform duration-300"
+                                />
+                                <div className="py-4 text-center">
+                                    <h3 className="text-lg font-bold text-gray-900">{item.title}</h3>
+                                    <p className="text-xs text-slate-700 mt-2 line-clamp-2 px-2">{item.desc}</p>
+                                </div>
                             </div>
                         </Link>
                     ))}
