@@ -69,7 +69,7 @@ const HomeAbout = () => {
                         className="lg:col-span-2 relative group h-full min-h-[400px]"
                     >
                         <img 
-                            src="https://scrapyarddammam.com/wp-content/uploads/2026/07/Industrial-Scrap.webp" 
+                            src="https://i.pinimg.com/736x/c6/bb/d4/c6bbd4e0cebdb6cae69f7f574b53d432.jpg" 
                             alt="Industrial Scrap" 
                             className="absolute inset-0 w-full h-full object-cover rounded-3xl shadow-2xl shadow-slate-500/30 transition-transform duration-500 group-hover:scale-[1.02]"
                         />

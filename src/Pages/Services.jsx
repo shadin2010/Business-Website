@@ -81,7 +81,7 @@ export const Services = () => {
     <div data-aos="fade-down" data-aos-duration="1500">
         {/* এখানে নতুন মানানসই ইমেজের লিঙ্ক যুক্ত করা হয়েছে */}
         <img 
-           src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=800&q=80" 
+           src="https://i.pinimg.com/1200x/38/89/dc/3889dc013d9af541323a9a1516e72770.jpg" 
            alt="Scrap Metal and Electronics" 
            className='w-full max-w-md rounded-2xl shadow-xl object-cover' 
         />
@@ -91,7 +91,7 @@ export const Services = () => {
             {/* Cards Grid Section */}
             <div className='max-w-7xl mx-auto px-4 mt-28'>
                 <h1 className='text-4xl sm:text-5xl font-extrabold text-center mb-16 text-slate-900' data-aos="fade-down">
-                    WHAT WE BUY
+                    ماذا نشتري
                 </h1>
 
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-items-center'>

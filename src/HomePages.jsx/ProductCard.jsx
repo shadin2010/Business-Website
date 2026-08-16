@@ -82,7 +82,7 @@ export const Services = () => {
                 </div>
 
                 <div data-aos="fade-down" data-aos-duration="1500">
-                    <img src="https://scrapyarddammam.com/wp-content/uploads/2026/07/Industrial-Scrap.webp" alt="Industrial Scrap" className='w-full max-w-md rounded-2xl shadow-xl object-cover' />
+                    <img src="https://i.pinimg.com/1200x/38/89/dc/3889dc013d9af541323a9a1516e72770.jpg" alt="Industrial Scrap" className='w-full max-w-md rounded-2xl shadow-xl object-cover' />
                 </div>
             </div>
 
@@ -90,7 +90,7 @@ export const Services = () => {
             <div className='max-w-7xl mx-auto px-4 mt-20'>
                 <div data-aos="fade-down">
                     <div className='text-4xl sm:text-5xl font-extrabold p-8 text-center text-slate-900 mb-4'>
-                        <h1>Scrap Buying Services</h1>
+                        <h1>خدمات شراء السكراب</h1>
                     </div>
                 </div>
 
