@@ -89,12 +89,13 @@ export const Services = () => {
 </div>
 
             {/* Cards Grid Section */}
-            <div className='max-w-7xl mx-auto px-4 mt-28'>
+            <div className='max-w-7xl mx-auto px-4 sm:px-6 mt-28'>
                 <h1 className='text-4xl sm:text-5xl font-extrabold text-center mb-16 text-slate-900' data-aos="fade-down">
                     ماذا نشتري
                 </h1>
 
-                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-items-center'>
+                {/* মোবাইল স্ক্রিনের জন্য grid-cols-2 করা হয়েছে */}
+                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-8'>
                     {servicesList.map((item, index) => (
                         <Link 
                             to={`/service/${item.id}`} 
@@ -102,18 +103,20 @@ export const Services = () => {
                             data-aos="fade-left"
                             data-aos-delay={index * 100}
                             data-aos-duration="800"
-                            className="block w-full max-w-xs"
+                            className="block w-full h-full"
                         >
-                            {/* হোভার ইফেক্টগুলো একটি ইনার ডিভ (Inner Div) এর মধ্যে আলাদা করা হয়েছে */}
-                            <div className="w-full h-full bg-white rounded-2xl shadow-lg overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 border border-slate-100 flex flex-col group bg-gradient-to-b from-teal-700 via-teal-500 to-white p-3">
-                                <img
-                                    src={item.image}
-                                    alt={item.title}
-                                    className="w-full h-44 object-cover rounded-xl group-hover:scale-105 transition-transform duration-300"
-                                />
-                                <div className="py-4 text-center">
-                                    <h3 className="text-lg font-bold text-gray-900">{item.title}</h3>
-                                    <p className="text-xs text-slate-700 mt-2 line-clamp-2 px-2">{item.desc}</p>
+                            {/* হোভার ইফেক্টগুলো একটি ইনার ডিভ (Inner Div) এর মধ্যে আলাদা করা হয়েছে */}
+                            <div className="w-full h-full bg-white rounded-xl sm:rounded-2xl shadow-lg overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 border border-slate-100 flex flex-col group bg-gradient-to-b from-teal-700 via-teal-500 to-white p-2 sm:p-3">
+                                <div className="overflow-hidden rounded-lg sm:rounded-xl">
+                                    <img
+                                        src={item.image}
+                                        alt={item.title}
+                                        className="w-full h-32 sm:h-44 object-cover group-hover:scale-105 transition-transform duration-300"
+                                    />
+                                </div>
+                                <div className="py-2 sm:py-4 text-center flex flex-col flex-grow justify-between">
+                                    <h3 className="text-xs sm:text-lg font-bold text-gray-900 mb-1 sm:mb-2 line-clamp-2">{item.title}</h3>
+                                    <p className="text-[11px] sm:text-xs text-slate-700 line-clamp-2 px-1 sm:px-2">{item.desc}</p>
                                 </div>
                             </div>
                         </Link>

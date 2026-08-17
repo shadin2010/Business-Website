@@ -29,8 +29,6 @@ export const servicesList = [
         image: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSE5rWu4kBzLmNgJNYn2d_CLdIbS7tYYajXCZnYiAHZJbC54gfBdY_O4x1lqqdb",
         desc: "مجموعة من وحدات تكييف الهواء القديمة والمهملة من نوع النافذة، مجمعة معا لإعادة تدوير الخردة المعدنية واستخراج القطع."
     },
-   
-   
     {
         id: "copper-scrap",
         title: "أجهزة خردة لإعادة التدوير",
@@ -87,42 +85,40 @@ export const Services = () => {
             </div>
 
             {/* Cards Grid Section */}
-            <div className='max-w-7xl mx-auto px-4 mt-20'>
+            <div className='max-w-7xl mx-auto px-4 sm:px-6 mt-20'>
                 <div data-aos="fade-down">
                     <div className='text-4xl sm:text-5xl font-extrabold p-8 text-center text-slate-900 mb-4'>
                         <h1>خدمات شراء السكراب</h1>
                     </div>
                 </div>
 
-                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-items-center mt-6'>
+                {/* Mobile-এ grid-cols-2 দেওয়া হয়েছে যাতে মোবাইল স্ক্রিনে পাশাপাশি দুটো করে কার্ড দেখায় */}
+                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 mt-6'>
                     {servicesList.map((item, index) => (
                         <div 
                             key={item.id}
                             data-aos="fade-up"
                             data-aos-delay={index * 100}
                             data-aos-duration="800"
-                            className="h-full" /* AOS-র‍্যাপারে h-full দেওয়া হয়েছে */
+                            className="h-full w-full"
                         >
                             <Link 
                                 to={`/service/${item.id}`} 
-                                // এখানে h-full, flex এবং flex-col যুক্ত করা হয়েছে 
-                                className="group flex flex-col h-full w-[290px] bg-white rounded-xl shadow-lg p-4 bg-gradient-to-b from-purple-700 via-purple-500 to-white transition-all duration-500 ease-in-out hover:-translate-y-3 hover:shadow-2xl"
+                                className="group flex flex-col h-full w-full bg-white rounded-xl shadow-lg p-2 sm:p-4 bg-gradient-to-b from-purple-700 via-purple-500 to-white transition-all duration-500 ease-in-out hover:-translate-y-3 hover:shadow-2xl"
                             >
                                 <div className="overflow-hidden rounded-md shrink-0">
                                     <img
                                         src={item.image}
                                         alt={item.title}
-                                        className="w-full h-48 object-cover transition-transform duration-500 ease-in-out group-hover:scale-110"
+                                        className="w-full h-32 sm:h-48 object-cover transition-transform duration-500 ease-in-out group-hover:scale-110"
                                     />
                                 </div>
                                 
-                                {/* flex-grow ব্যবহার করা হয়েছে যাতে কন্টেন্ট অনুযায়ী জায়গা সমানভাবে নেয় */}
-                                <div className="p-5 text-center flex flex-col flex-grow">
-                                    <h1 className="text-xl font-bold text-gray-800 mb-3">
+                                <div className="p-2 sm:p-5 text-center flex flex-col flex-grow">
+                                    <h1 className="text-sm sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">
                                         {item.title}
                                     </h1>
-                                    {/* line-clamp-3 দেওয়া হয়েছে যাতে টেক্সট সর্বোচ্চ ৩ লাইনের বেশি না যায় */}
-                                    <p className="text-gray-600 text-sm leading-6 line-clamp-3">
+                                    <p className="text-gray-600 text-xs sm:text-sm leading-5 sm:leading-6 line-clamp-3">
                                         {item.desc}
                                     </p>
                                 </div>

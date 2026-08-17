@@ -6,7 +6,7 @@ import { FaFacebookSquare, FaWhatsappSquare, FaInstagramSquare } from "react-ico
 
 const ContactUs = () => {
     return (
-        <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8 pt-28">
+        <div dir="rtl" className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8 pt-28 text-right">
             <div className="max-w-7xl mx-auto">
                 
                 {/* Header Title Section */}
@@ -18,10 +18,10 @@ const ContactUs = () => {
     </p>
                </div> 
 
-                {/* Main Grid: Left Side Info & Right Side Map */}
+                {/* Main Grid: Right Side Info & Left Side Map (RTL Adjusted) */}
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     
-                    {/* Left Side: Contact Info & Social Icons */}
+                    {/* Contact Info & Social Icons */}
                     <div className="space-y-8">
                         
                         {/* Get in Touch Heading */}
@@ -31,35 +31,35 @@ const ContactUs = () => {
                                 <h2 className='text-3xl font-bold text-slate-800'>تواصل معنا</h2>
                             </div> 
                             
-                            {/* Details List */}
-                            <div className="mt-6 space-y-4 ml-2">
-                                <div className='flex gap-3 items-center'> 
+                            {/* Details List with Links */}
+                            <div className="mt-6 space-y-4 mr-2">
+                                <a href="tel:+966510904147" className='flex gap-3 items-center hover:opacity-80 transition'> 
                                     <span className='text-xl text-green-500'><IoIosCall /></span>  
-                                    <span className='text-xl text-slate-700 font-medium'>+966 51 090 4147</span>
-                                </div> 
+                                    <span className='text-xl text-slate-700 font-medium' dir="ltr">+966 51 090 4147</span>
+                                </a> 
 
-                                <div className='flex gap-3 items-center'> 
+                                <a href="mailto:scrapbuyer.best@gmail.com" className='flex gap-3 items-center hover:opacity-80 transition'> 
                                     <span className='text-xl text-green-500'><AiOutlineMail /></span>  
                                     <span className='text-xl text-slate-700 font-medium'>scrapbuyer.best@gmail.com</span>
-                                </div>
+                                </a>
 
                                 <div className='flex gap-3 items-center'> 
                                     <span className='text-xl text-green-500'><IoLocationOutline /></span>  
-                                    <span className='text-xl text-slate-700 font-medium'>Dammam, Saudi Arabia</span>
+                                    <span className='text-xl text-slate-700 font-medium'>الدمام، المملكة العربية السعودية</span>
                                 </div>
                             </div>
                         </div>
 
-                        {/* Social Media Icons */}
-                        <div className='flex gap-4 items-center ml-2 pt-2'>
-                            <a href="#" className='text-4xl text-green-600 hover:text-green-700 transition'><FaFacebookSquare /></a>
-                            <a href="#" className='text-4xl text-green-600 hover:text-green-700 transition'><FaWhatsappSquare /></a>
-                            <a href="#" className='text-4xl text-green-600 hover:text-green-700 transition'><FaInstagramSquare /></a>
+                        {/* Social Media Icons with Links */}
+                        <div className='flex gap-4 items-center mr-2 pt-2'>
+                            <a href="https://www.facebook.com/scrapbuyer6" target="_blank" rel="noopener noreferrer" className='text-4xl text-green-600 hover:text-green-700 transition'><FaFacebookSquare /></a>
+                            <a href="https://wa.me/966510904147" target="_blank" rel="noopener noreferrer" className='text-4xl text-green-600 hover:text-green-700 transition'><FaWhatsappSquare /></a>
+                            
                         </div>
 
                     </div>
 
-                    {/* Right Side: Google Map Embed */}
+                    {/* Google Map Embed */}
                     <div className="w-full h-[400px] sm:h-[450px] rounded-2xl overflow-hidden shadow-lg border border-slate-200">
                         <iframe 
                             title="Dammam Location Map"
@@ -80,4 +80,4 @@ const ContactUs = () => {
     );
 };
 
-export default ContactUs; 
+export default ContactUs;
