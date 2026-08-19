@@ -2,7 +2,7 @@ import React from 'react';
 import { IoIosCall } from "react-icons/io";
 import { AiOutlineMail } from "react-icons/ai";
 import { IoLocationOutline } from "react-icons/io5";
-import { FaFacebookSquare, FaWhatsappSquare, FaInstagramSquare } from "react-icons/fa";
+import { FaFacebookSquare, FaWhatsappSquare } from "react-icons/fa";
 
 const ContactUs = () => {
     return (
@@ -11,17 +11,17 @@ const ContactUs = () => {
                 
                 {/* Header Title Section */}
                <div className="mb-12 max-w-3xl">
-    <h1 className="text-4xl text-cyan-700 font-bold">اتصل بنا</h1>
-    <p className="text-md mt-4 text-slate-600 leading-relaxed">
-        لديك خردة للبيع؟ تحتاج إلى استلام سريع أو عرض سعر؟ نحن هنا للمساعدة. <br /> 
-        اتصل بنا في أي وقت وسيقوم فريقنا بالرد في أسرع وقت ممكن.
-    </p>
+                    <h1 className="text-4xl text-cyan-700 font-bold">اتصل بنا</h1>
+                    <p className="text-md mt-4 text-slate-600 leading-relaxed">
+                        لديك خردة للبيع؟ تحتاج إلى استلام سريع أو عرض سعر؟ نحن هنا للمساعدة. <br /> 
+                        اتصل بنا في أي وقت وسيقوم فريقنا بالرد في أسرع وقت ممكن.
+                    </p>
                </div> 
 
-                {/* Main Grid: Right Side Info & Left Side Map (RTL Adjusted) */}
+                {/* Main Grid: Right Side Info & Left Side Map */}
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     
-                    {/* Contact Info & Social Icons */}
+                    {/* Contact Info & Social Icons (Right Side) */}
                     <div className="space-y-8">
                         
                         {/* Get in Touch Heading */}
@@ -54,12 +54,11 @@ const ContactUs = () => {
                         <div className='flex gap-4 items-center mr-2 pt-2'>
                             <a href="https://www.facebook.com/scrapbuyer6" target="_blank" rel="noopener noreferrer" className='text-4xl text-green-600 hover:text-green-700 transition'><FaFacebookSquare /></a>
                             <a href="https://wa.me/966510904147" target="_blank" rel="noopener noreferrer" className='text-4xl text-green-600 hover:text-green-700 transition'><FaWhatsappSquare /></a>
-                            
                         </div>
 
                     </div>
 
-                    {/* Google Map Embed */}
+                    {/* Google Map Embed (Left Side) */}
                     <div className="w-full h-[400px] sm:h-[450px] rounded-2xl overflow-hidden shadow-lg border border-slate-200">
                         <iframe 
                             title="Dammam Location Map"
