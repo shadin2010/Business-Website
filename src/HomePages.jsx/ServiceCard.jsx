@@ -29,7 +29,7 @@ const ServiceCard = () => {
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-8 max-w-7xl mx-auto px-4">
         {/* Card -1 */}
         <div data-aos="fade-left" data-aos-duration="800" className="h-full w-full">
-          <div className="w-full h-72 sm:h-80 rounded-xl overflow-hidden shadow-xl bg-gradient-to-b from-sky-500 via-sky-400 to-white text-center p-3 sm:p-5 transform-gpu transition-all duration-500 ease-in-out hover:-translate-y-2 hover:shadow-2xl hover:from-red-500 hover:via-red-400 hover:to-white flex flex-col justify-between">
+          <div className="w-full h-72 sm:h-80 rounded-xl overflow-hidden shadow-xl bg-gradient-to-b from-sky-500 via-sky-400 to-white text-center p-3 sm:p-5 transform-gpu transition-all duration-500 ease-in-out hover:-translate-y-2 hover:shadow-2xl hover:from-red-500 hover:via-red-400 hover:to-white flex flex-col justify-start">
             <div>
               <div className="flex justify-center">
                 <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white flex items-center justify-center shadow-lg">
@@ -37,12 +37,12 @@ const ServiceCard = () => {
                 </div>
               </div>
 
-              <h1 className="text-lg sm:text-2xl font-bold text-white mt-3 sm:mt-4">
+              <h1 className="text-lg sm:text-2xl font-bold text-white mt-2 sm:mt-3">
                 أفضل أسعار الخردة
               </h1>
             </div>
 
-            <p className="text-gray-700 mt-2 sm:mt-4 leading-5 sm:leading-6 text-xs sm:text-sm">
+            <p className="text-gray-700 mt-2 sm:mt-3 leading-5 sm:leading-6 text-xs sm:text-sm">
               نحن مشتري خردة موثوق به في الدمام، نقدم أسعارا تنافسية، وعروضا فورية، وخدمات استلام موثوقة.
             </p>
           </div>
@@ -50,7 +50,7 @@ const ServiceCard = () => {
 
         {/* Card -2 */}
         <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="800" className="h-full w-full">
-          <div className="w-full h-72 sm:h-80 rounded-xl overflow-hidden shadow-xl bg-gradient-to-b from-sky-500 via-sky-400 to-white text-center p-3 sm:p-5 transform-gpu transition-all duration-500 ease-in-out hover:-translate-y-2 hover:shadow-2xl hover:from-red-500 hover:via-red-400 hover:to-white flex flex-col justify-between">
+          <div className="w-full h-72 sm:h-80 rounded-xl overflow-hidden shadow-xl bg-gradient-to-b from-sky-500 via-sky-400 to-white text-center p-3 sm:p-5 transform-gpu transition-all duration-500 ease-in-out hover:-translate-y-2 hover:shadow-2xl hover:from-red-500 hover:via-red-400 hover:to-white flex flex-col justify-start">
             <div>
               <div className="flex justify-center">
                 <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white flex items-center justify-center shadow-lg">
@@ -58,12 +58,12 @@ const ServiceCard = () => {
                 </div>
               </div>
 
-              <h1 className="text-lg sm:text-2xl font-bold text-white mt-3 sm:mt-4">
+              <h1 className="text-lg sm:text-2xl font-bold text-white mt-2 sm:mt-3">
                 خدمة استلام <br /> سريعة
               </h1>
             </div>
 
-            <p className="text-gray-700 mt-2 sm:mt-4 leading-5 sm:leading-6 text-xs sm:text-sm">
+            <p className="text-gray-700 mt-2 sm:mt-3 leading-5 sm:leading-6 text-xs sm:text-sm">
               نقدم خدمة استلام سريعة في الدمام، لضمان جمع الخردة بسرعة.
             </p>
           </div>
@@ -71,7 +71,7 @@ const ServiceCard = () => {
 
         {/* Card -3 */}
         <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="800" className="h-full w-full">
-          <div className="w-full h-72 sm:h-80 rounded-xl overflow-hidden shadow-xl bg-gradient-to-b from-sky-500 via-sky-400 to-white text-center p-3 sm:p-5 transform-gpu transition-all duration-500 ease-in-out hover:-translate-y-2 hover:shadow-2xl hover:from-red-500 hover:via-red-400 hover:to-white flex flex-col justify-between">
+          <div className="w-full h-72 sm:h-80 rounded-xl overflow-hidden shadow-xl bg-gradient-to-b from-sky-500 via-sky-400 to-white text-center p-3 sm:p-5 transform-gpu transition-all duration-500 ease-in-out hover:-translate-y-2 hover:shadow-2xl hover:from-red-500 hover:via-red-400 hover:to-white flex flex-col justify-start">
             <div>
               <div className="flex justify-center">
                 <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white flex items-center justify-center shadow-lg">
@@ -79,10 +79,10 @@ const ServiceCard = () => {
                 </div>
               </div>
 
-              <h1 className="text-lg sm:text-2xl font-bold text-white mt-3 sm:mt-4">دفع فوري</h1>
+              <h1 className="text-lg sm:text-2xl font-bold text-white mt-2 sm:mt-3">دفع فوري</h1>
             </div>
 
-            <p className="text-gray-700 mt-2 sm:mt-4 leading-5 sm:leading-6 text-xs sm:text-sm">
+            <p className="text-gray-700 mt-2 sm:mt-3 leading-5 sm:leading-6 text-xs sm:text-sm">
               نقدم دفعا فوريا في الدمام، ونضمن معاملات سريعة، وأسعارا عادلة، وخدمة آمنة وخالية من المتاعب.
             </p>
           </div>
@@ -90,7 +90,7 @@ const ServiceCard = () => {
 
         {/* Card -4 */}
         <div data-aos="fade-right" data-aos-delay="600" data-aos-duration="800" className="h-full w-full">
-          <div className="w-full h-72 sm:h-80 rounded-xl overflow-hidden shadow-xl bg-gradient-to-b from-sky-500 via-sky-400 to-white text-center p-3 sm:p-5 transform-gpu transition-all duration-500 ease-in-out hover:-translate-y-2 hover:shadow-2xl hover:from-red-500 hover:via-red-400 hover:to-white flex flex-col justify-between">
+          <div className="w-full h-72 sm:h-80 rounded-xl overflow-hidden shadow-xl bg-gradient-to-b from-sky-500 via-sky-400 to-white text-center p-3 sm:p-5 transform-gpu transition-all duration-500 ease-in-out hover:-translate-y-2 hover:shadow-2xl hover:from-red-500 hover:via-red-400 hover:to-white flex flex-col justify-start">
             <div>
               <div className="flex justify-center">
                 <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white flex items-center justify-center shadow-lg">
@@ -98,12 +98,12 @@ const ServiceCard = () => {
                 </div>
               </div>
 
-              <h1 className="text-lg sm:text-2xl font-bold text-white mt-3 sm:mt-4">
+              <h1 className="text-lg sm:text-2xl font-bold text-white mt-2 sm:mt-3">
                 فريق <br /> محترف
               </h1>
             </div>
 
-            <p className="text-gray-700 mt-2 sm:mt-4 leading-5 sm:leading-6 text-xs sm:text-sm">
+            <p className="text-gray-700 mt-2 sm:mt-3 leading-5 sm:leading-6 text-xs sm:text-sm">
               أفضل أسعار الخردة في الدمام مع الدفع الفوري.
             </p>
           </div>
