@@ -8,10 +8,12 @@ import FloatingIcons from "./Components/FloatingIcons";
 import Home from "./Pages/Home";
 import ContactUs from "./Pages/ContactUs";
 import ServiceDetails from "./Pages/ServiceDetails";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   return (
     <div>
+      <ScrollToTop />
  <Navbar />
 
 
