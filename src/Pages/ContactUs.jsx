@@ -3,10 +3,18 @@ import { IoIosCall } from "react-icons/io";
 import { AiOutlineMail } from "react-icons/ai";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaFacebookSquare, FaWhatsappSquare } from "react-icons/fa";
+import { Helmet } from 'react-helmet-async';
 
 const ContactUs = () => {
     return (
         <div dir="rtl" className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8 pt-28 text-right">
+
+            <Helmet>
+
+<title>اتصل بنا - شركة شراء سكراب ومكيفات مستعملة بالدمام</title>
+                <meta name="description" content="تواصل معنا الآن لبيع السكراب، الحديد، النحاس والمكيفات المستعملة في الدمام. خدمة سريعة وسداد فوري على مدار الساعة." />
+
+            </Helmet>
             <div className="max-w-7xl mx-auto">
                 
                 {/* Header Title Section */}

@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { servicesList } from './Services'; // আগের তালিকা থেকে ডেটা নেওয়া হচ্ছে
 import { FaArrowLeft, FaCheckCircle, FaWhatsapp, FaPhoneAlt } from 'react-icons/fa';
+import { Helmet } from 'react-helmet-async';
 
 const ServiceDetails = () => {
     const { id } = useParams();
@@ -17,6 +18,12 @@ const ServiceDetails = () => {
     if (!service) {
         return (
             <div dir="rtl" className="min-h-screen flex flex-col items-center justify-center text-center px-4 pt-20 text-right">
+
+        <Helmet>
+                <title>{service.title} | أفضل أسعار الدمام</title>
+                <meta name="description" content={`${service.desc} - خدمة سريعة ودفع فوري في الدمام.`} />
+            </Helmet>
+
                 <h2 className="text-3xl font-bold text-red-600 mb-4">الخدمة غير موجودة</h2>
                 <Link to="/services" className="px-6 py-3 bg-teal-600 text-white rounded-xl font-semibold">
                     العودة إلى الخدمات

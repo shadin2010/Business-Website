@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom"; // লিংক করার জন্য
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Helmet } from "react-helmet-async";
 
 // সমস্ত সার্ভিসের ডেটা (ছবি ও ডিটেইলস সহ)
 export const servicesList = [
@@ -65,6 +66,16 @@ export const Services = () => {
 
     return (
         <div className="pt-24 pb-16">
+
+<Helmet>
+
+<title>خدماتنا - شراء مكيفات وسكراب في الدمام</title>
+                <meta name="description" content="خدمات شراء المكيفات المستعملة، السكراب، الألمنيوم، النحاس، وحديد الخردة في الدمام بأفضل الأسعار مع سرعة التحميل والدفع الفوري." />
+
+
+</Helmet>
+
+
             {/* Top Intro Section */}
          <div className='flex flex-col lg:flex-row items-center justify-center max-w-7xl mx-auto px-4 gap-12'>
     <div className='max-w-xl' data-aos="fade-down" data-aos-duration="1500">

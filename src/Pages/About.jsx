@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaCheckCircle, FaTruck, FaHandHoldingUsd, FaShieldAlt, FaUsers, FaIndustry, FaGlobeAsia } from 'react-icons/fa';
+import { Helmet } from 'react-helmet-async';
 
 // Scroll animation variants
 const scrollAnimation = {
@@ -41,6 +42,13 @@ const About = () => {
     return (
         <div dir="rtl" className="bg-white text-slate-800 overflow-hidden font-sans">
             
+<Helmet>
+
+<title>من نحن - شركة شراء سكراب ومكيفات مستعملة بالدمام</title>
+                <meta name="description" content="تعرف علينا - أفضل شركة متخصصة في شراء السكراب، الحديد، الألومنيوم، والنحاس والمكيفات المستعملة في الدمام بخدمة سريعة ودفع فوري." />
+
+</Helmet>
+
             {/* --- HERO SECTION --- */}
             <div className="relative bg-slate-950 text-white pt-36 pb-28 px-4 sm:px-6 lg:px-8 overflow-hidden">
                 <motion.div 

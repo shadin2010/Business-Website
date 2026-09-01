@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 
 // Scroll animation variants
 const scrollAnimation = {
@@ -26,11 +27,11 @@ export const Blog = () => {
     <article className="container mx-auto px-4 py-10 font-sans text-right overflow-hidden" dir="rtl">
       
       {/* قسم الـ SEO (يمكنك نقله إلى React Helmet إذا كنت تستخدمه) */}
-      <div className="hidden">
+    <Helmet>
         <title>شراء مكيفات وألمنيوم مستعمل في الدمام | نشتري المكيفات والألمنيوم</title>
         <meta name="description" content="نشتري مكيفات وألمنيوم مستعمل في الدمام والمناطق المحيطة مثل Al Hasan Al Hubob وAl Katib وAl Kobat وAl Jobaier. تواصل معنا اليوم لبيع منتجاتك القديمة." />
         <meta name="keywords" content="شراء مكيفات وألمنيوم مستعمل في الدمام, شراء مكيفات مستعملة في الدمام, شراء مكيفات قديمة في الدمام, شراء ألمنيوم مستعمل في الدمام, مشتري مكيفات مستعملة في الدمام, مشتري ألمنيوم مستعمل في الدمام" />
-      </div>
+      </Helmet>
 
       {/* ترويسة المقال */}
       <motion.header 
