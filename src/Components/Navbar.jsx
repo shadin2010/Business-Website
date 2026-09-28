@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="cursor-pointer">
             <a href="/" className="flex items-center gap-2">
                 <img src={logo} alt="Scrap Buyer Logo" className="h-10 w-auto object-contain" />
-                <span className="text-2xl sm:text-3xl font-bold text-green-600">شراي سكراب</span>
+                <span className="text-2xl sm:text-3xl font-bold text-green-600">شر١  سكراب</span>
             </a>
         </div>
 

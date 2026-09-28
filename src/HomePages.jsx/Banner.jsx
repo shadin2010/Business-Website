@@ -34,7 +34,7 @@ const Banner = () => {
           {/* Center Content */}
           <div className="text-white max-w-4xl">
             <h1 className="text-3xl sm:text-4xl lg:text-6xl font-extrabold leading-tight drop-shadow-xl">
-              أفضل شراي سكراب بالدمام – نشتري كل أنواع <br className="hidden sm:block" /> السكراب بأعلى الأسعار
+              أفضل شرا سكراب بالدمام – نشتري كل أنواع <br className="hidden sm:block" /> السكراب بأعلى الأسعار
             </h1>
 
             <p className="mt-6 text-base sm:text-lg lg:text-2xl text-gray-200 drop-shadow-md">
